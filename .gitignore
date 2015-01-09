@@ -1,0 +1,4 @@
+static/.bundle.*
+static/bundle.*
+/node_modules
+/npm-debug.log

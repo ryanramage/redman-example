@@ -1,0 +1,47 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "lib/server.js",
+  "dependencies": {
+    "camel-case": "^1.0.2",
+    "config": "~1.10.0",
+    "hapi": "^6.5.1",
+    "node-jsx": "^0.12.4",
+    "seaport": "~2.0.9",
+    "version-route": "~1.0.0",
+    "widget-boot": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.0.3",
+    "jshint": "^2.5.5",
+    "less": "^2.2.0",
+    "reactify": "^0.17.1",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0",
+    "uglify-js": "^2.4.16",
+    "watch": "^0.13.0",
+    "watch-less": "0.0.3",
+    "watchify": "^2.2.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jshint lib/*.js && ./node_modules/.bin/tap test/*.js",
+    "start": "node bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search.git"
+  },
+  "bugs": {
+    "url": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search/issues"
+  },
+  "homepage": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search",
+  "publishConfig": {
+    "registry": "http://npm.rmcloud.com:8123"
+  }
+}
