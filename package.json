@@ -4,13 +4,15 @@
   "description": "WIP - nothing to see here",
   "main": "lib/server.js",
   "dependencies": {
+    "boom": "^2.6.1",
     "camel-case": "^1.0.2",
     "config": "~1.10.0",
     "hapi": "^6.5.1",
     "node-jsx": "^0.12.4",
+    "react": "0.13.0-alpha.1",
     "seaport": "~2.0.9",
     "version-route": "~1.0.0",
-    "widget-boot": "^1.0.0"
+    "widget-boot": "^1.1.1"
   },
   "devDependencies": {
     "browserify": "^8.0.3",
