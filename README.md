@@ -1,26 +1,24 @@
 # {{name}}
 
-IMPORTANT - PLEASE FOLLOW:
+This is just a simple isomorphic react baseline project. Use it to speed up making a Redman react widget.
 
-https://wiki.redmantech.ca/Development_Department/npm/New_node_module_project_checklist
+# Requirements
 
-WIP - nothing to see here
+You will need the 'create-project' package.
 
-```
-npm install {{name}}
-```
+    npm install -g create-project
 
-## Usage
 
-``` js
-var {{name}} = require('{{name}}')
-```
+# Setup
 
-or from the command line
+Create a new project locally
 
-```
-npm start
-```
+    create project widget-awesome ryanramage/redman-example
+    cd widget-awesome
+    npm i
+    npm test
+
+All of the above should complete without error. Then you are ready to go!
 
 
 
