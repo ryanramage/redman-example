@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search.git"
+    "url": "http://gitlab.rmcloud.com/npm-modules/{{name}}.git"
   },
   "bugs": {
-    "url": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search/issues"
+    "url": "http://gitlab.rmcloud.com/npm-modules/{{name}}/issues"
   },
-  "homepage": "http://gitlab.rmcloud.com/npm-modules/widget-saved-search",
+  "homepage": "http://gitlab.rmcloud.com/npm-modules/{{name}}",
   "publishConfig": {
     "registry": "http://npm.rmcloud.com:8123"
   }
