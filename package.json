@@ -1,5 +1,5 @@
 {
-  "name": "widget-{{name}}",
+  "name": "{{name}}",
   "version": "1.0.0",
   "description": "WIP - nothing to see here",
   "main": "lib/server.js",
@@ -39,9 +39,9 @@
     "start": "node bin/cli",
     "test": "make test",
     "start": "node bin/cli",
-    "build-js": "browserify -e --standalone widget-{{name}} ./lib/browser.js | uglifyjs - > static/bundle.js",
+    "build-js": "browserify -e --standalone {{name}} ./lib/browser.js | uglifyjs - > static/bundle.js",
     "build-css": "lessc src/style/widget.less > static/bundle.css",
-    "watch-js": "npm run build-js && watchify -e --standalone widget-{{name}} ./lib/browser.js -o static/bundle.js -d -v",
+    "watch-js": "npm run build-js && watchify -e --standalone {{name}} ./lib/browser.js -o static/bundle.js -d -v",
     "watch-css": "npm run build-css && watch \"npm run build-css\" src/style",
     "watch": "npm run watch-js | npm run watch-css",
     "build": "npm run build-js && npm run build-css"
