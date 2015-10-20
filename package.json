@@ -37,7 +37,7 @@
     ]
   },
   "scripts": {
-    "test": "standard",
+    "test": "standard && tap test/*.js",
     "start": "node bin/cli",
     "start": "node bin/cli",
     "build-js": "browserify -e --standalone widget-awesome ./lib/browser.js | uglifyjs - > static/bundle.js",
