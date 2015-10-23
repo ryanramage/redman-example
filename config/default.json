@@ -2,7 +2,5 @@
   "seaportautopilot": {
     "onlyBind": true,
     "port" : 54833
-  },
-  "elasticsearch": "http://elastic-1.redmantech.com:9200/ddf",
-  "settings_db": "http://sofa.rmcloud.com:5984/widget-settings"
+  }
 }
